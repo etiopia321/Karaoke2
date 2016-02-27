@@ -16,6 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".TabbedActivity"
+            android:label="@string/title_activity_tabbed" >
+        </activity>
+        <activity
+            android:name=".SongPlayerActivity"
+            android:label="@string/title_activity_song_player" >
+        </activity>
     </application>
 
 </manifest>
